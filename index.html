@@ -10,9 +10,14 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Prompt:wght@200;300;400;500&display=swap" rel="stylesheet">
 
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@300;400;600;700&display=swap"
+        rel="stylesheet">
+
     <link rel="stylesheet" href="css/000.css">
     <link rel="stylesheet" href="css/style.css">
-    <title>_yachtClub</title>
+    <title>market</title>
 </head>
 
 <body class="body">
@@ -33,7 +38,7 @@
                                     </a>
                                     <ul class="nav__nav-sub-list">
                                         <li class="nav__nav-sub-item">
-                                            <a href="" class="nav__nav-sub-link"> 	High-grade</a>
+                                            <a href="" class="nav__nav-sub-link"> High-grade</a>
                                         </li>
                                         <li class="nav__nav-sub-item">
                                             <a href="" class="nav__nav-sub-link">Mid-grade</a>
@@ -74,9 +79,21 @@
                                 </li>
                             </ul>
                         </nav>
+                        <button type="button" title="search" class="header__button" id="search-button">
+                            <img src="img/search.svg" alt="" class="header__icon">
+                        </button>
+                        <a href="#" class="header__community">
+                            community
+                        </a>
                         <div class="header__user-menu">
-                            <button type="button" title="search" class="header__button" id="search-button">
-                                <img src="img/search.svg" alt="" class="header__icon">
+                            <button type="button" class="header__button" id="notifications-button">
+                                <img src="img/bell.svg" title="notifications" alt="notifications" class="header__icon">
+                            </button>
+                            <button type="button" class="header__button" id="mail-button">
+                                <img src="img/mail.svg" alt="" class="header__icon">
+                            </button>
+                            <button type="button" class="header__registration-button" id="registration-button">
+                                registration
                             </button>
                             <button type="button" class="header__button header__button_red" id="login-button">
                                 <img src="img/login.svg" alt="" class="header__icon">
@@ -112,7 +129,83 @@
 
         <main class="main">
             <div class="container">
-
+                <section class="shop">
+                    <div class="shop__other-products">
+                        <div class="shop__card card">
+                            <img class="card__main-img" src="img/products/yacht-1.jpeg" alt="yacht1">
+                            <div class="card__under-menu">
+                                <h3 class="card__title">jerico</h3>
+                                <div class="card__panel">
+                                    <a href="#">info</a>
+                                    <button type="button">buy</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="shop__card card">
+                            <img class="card__main-img" src="img/products/yacht-3.jpeg" alt="yacht1">
+                            <div class="card__under-menu">
+                                <h3 class="card__title">martin</h3>
+                                <div class="card__panel">
+                                    <a href="#">info</a>
+                                    <button type="button">buy</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="shop__card card">
+                            <img class="card__main-img" src="img/products/yacht-4.jpeg" alt="yacht1">
+                            <div class="card__under-menu">
+                                <h3 class="card__title">ishtar</h3>
+                                <div class="card__panel">
+                                    <a href="#">info</a>
+                                    <button type="button">buy</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="shop__card card">
+                            <img class="card__main-img" src="img/products/yacht-5.jpeg" alt="yacht1">
+                            <div class="card__under-menu">
+                                <h3 class="card__title">providence</h3>
+                                <div class="card__panel">
+                                    <a href="#">info</a>
+                                    <button type="button">buy</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="shop__card card">
+                            <img class="card__main-img" src="img/products/yacht-6.jpeg" alt="yacht1">
+                            <div class="card__under-menu">
+                                <h3 class="card__title">utopia</h3>
+                                <div class="card__panel">
+                                    <a href="#">info</a>
+                                    <button type="button">buy</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="shop__card card">
+                            <img class="card__main-img" src="img/products/yacht-7.jpeg" alt="yacht1">
+                            <div class="card__under-menu">
+                                <h3 class="card__title">astra</h3>
+                                <div class="card__panel">
+                                    <a href="#">info</a>
+                                    <button type="button">buy</button>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="shop__card card"></div>
+                        <div class="shop__card card"></div>
+                    </div>
+                    <div class="shop__month">
+                        <img class="card__main-img" src="img/products/yacht-2.jpeg" alt="yacht1">
+                        <div class="card__under-menu">
+                            <h3 class="card__title">helena</h3>
+                            <div class="card__panel">
+                                <a href="#">info</a>
+                                <button type="button">buy</button>
+                            </div>
+                        </div>
+                    </div>
+                </section>
             </div>
         </main>
         <footer class="footer"></footer>

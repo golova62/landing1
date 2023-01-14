@@ -12,15 +12,17 @@ searchButton.addEventListener('click', function() {
     headerSubstrate.classList.toggle('header__substrate-opener');
     // body.classList.toggle('body__none-scroll')
 })
-headerSubstrate.addEventListener('click', function() {
-    searchPanel.classList.remove('header__hidden-search-panel_open-search-form');
-    headerSubstrate.classList.remove('header__substrate-opener');
-    // body.classList.toggle('body__none-scroll')
-})
+
 loginButton.addEventListener('click', function() {
     loginForm.classList.toggle("login-form__visible");
+    headerSubstrate.classList.toggle('header__substrate-opener');
 })
 
+headerSubstrate.addEventListener('click', function() {
+    searchPanel.classList.remove('header__hidden-search-panel_open-search-form');
+    loginForm.classList.remove('login-form__visible');
+    headerSubstrate.classList.remove('header__substrate-opener');
+})
 
 
 
